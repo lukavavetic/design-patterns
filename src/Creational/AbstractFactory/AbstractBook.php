@@ -1,6 +1,6 @@
 <?php
 
-namespace Src\AbstractFactory;
+namespace Src\Creational\AbstractFactory;
 
 abstract class AbstractBook {
     abstract function getAuthor() : string;

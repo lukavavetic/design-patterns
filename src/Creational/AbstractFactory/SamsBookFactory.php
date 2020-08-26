@@ -1,6 +1,6 @@
 <?php
 
-namespace Src\AbstractFactory;
+namespace Src\Creational\AbstractFactory;
 
 class SamsBookFactory extends AbstractBookFactory {
     private $context = "Sams";

@@ -1,14 +1,14 @@
 <?php
 
-namespace Src\AbstractFactory;
+namespace Src\Creational\AbstractFactory;
 
-class SamsMySQLBook extends AbstractMySQLBook {
+class OReillyMySQLBook extends AbstractMySQLBook {
     private string $author;
     private string $title;
 
     function __construct() {
-        $this->author = 'Paul Dubois';
-        $this->title = 'MySQL, 3rd Edition';
+        $this->author = 'George Reese, Randy Jay Yarger, and Tim King';
+        $this->title = 'Managing and Using MySQL';
     }
 
     public function getAuthor() : string

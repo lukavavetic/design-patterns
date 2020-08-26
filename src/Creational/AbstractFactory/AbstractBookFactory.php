@@ -1,6 +1,6 @@
 <?php
 
-namespace Src\AbstractFactory;
+namespace Src\Creational\AbstractFactory;
 
 abstract class AbstractBookFactory {
     abstract function makePHPBook() : AbstractPHPBook;
