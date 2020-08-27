@@ -1,6 +1,6 @@
 <?php
 
-namespace Src\Creational\AbstractFactory;
+namespace Src\Creational\AbstractFactory\Example1;
 
 class OReillyPHPBook extends AbstractPHPBook {
     private string $author;

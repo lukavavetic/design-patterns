@@ -1,6 +1,6 @@
 <?php
 
-namespace Src\Creational\AbstractFactory;
+namespace Src\Creational\AbstractFactory\Example1;
 
 class OReillyMySQLBook extends AbstractMySQLBook {
     private string $author;
