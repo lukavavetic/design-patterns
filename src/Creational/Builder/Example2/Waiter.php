@@ -1,6 +1,6 @@
 <?php
 
-namespace Src\Creational\Builder\Pizza;
+namespace Src\Creational\Builder\Example2;
 
 /** Director */
 class Waiter
