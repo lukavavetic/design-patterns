@@ -6,13 +6,13 @@ class Client
 {
     public function run()
     {
-        $iglooBuilder = new IglooHouseBuilder();
-        $civilEngineer = new CivilEngineer($iglooBuilder);
+        $iglooBuilder = new IglooHouseBuilder(); //builder
+        $civilEngineer = new CivilEngineer($iglooBuilder); //director
 
         $civilEngineer->constructHouse();
 
         $house = $civilEngineer->getHouse();
 
-        print_r($house);
+        print_r($iglooBuilder->getHouse());
     }
 }
