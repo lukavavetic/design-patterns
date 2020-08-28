@@ -7,7 +7,8 @@ require "../vendor/autoload.php";
 //use Src\Creational\Builder\Example2\PizzaBuilderTest;
 //use Src\Creational\AbstractFactory\Example2\Client;
 //use Src\Creational\AbstractFactory\Example3\Client;
-use Src\Creational\Builder\Example3\Client;
+//use Src\Creational\Builder\Example3\Client;
+use Src\Creational\Builder\Example4\Client;
 
 //(new AbstractFactoryTest())->run();
 //(new HTMLPageBuilderTest())->run();
