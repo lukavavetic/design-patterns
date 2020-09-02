@@ -13,5 +13,4 @@ class EnginolaToolkitFactory extends AbstractFactory
     {
         return new EnginolaMMU();
     }
-
 }

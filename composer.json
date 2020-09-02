@@ -1,0 +1,13 @@
+{
+  "type": "project",
+  "description": "Gang of four - design patterns",
+  "license": "MIT",
+  "require": {
+    "php": "7.4.7"
+  },
+  "autoload": {
+    "psr-4": {
+      "Src\\": "src/"
+    }
+  }
+}
