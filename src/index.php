@@ -10,7 +10,8 @@ require "../vendor/autoload.php";
 //use Src\Creational\Builder\Example3\Client;
 //use Src\Creational\Builder\Example4\Client;
 //use Src\Creational\Builder\Example5\Client;
-use Src\Creational\FactoryMethod\Example1\Client;
+//use Src\Creational\FactoryMethod\Example1\Client;
+use Src\Creational\FactoryMethod\Example2\Client;
 
 //(new AbstractFactoryTest())->run();
 //(new HTMLPageBuilderTest())->run();
