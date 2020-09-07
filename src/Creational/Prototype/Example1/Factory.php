@@ -6,19 +6,15 @@ class Factory
 {
     private static array $prototypes;
 
-    public static function __constructStatic()
+    public static function addPrototypes(string $key, PersonInterface $person) : void
     {
-        self::$prototypes = [
-            "tom" => new Tom(),
-            "dick" => new Dick(),
-            "harry" => new Harry()
-        ];
+        self::$prototypes = [$key => $person];
     }
 
     public static function getPrototype(string $type) : PersonInterface
     {
         try {
-            return self::$prototypes[$type];
+            return clone self::$prototypes[$type];
         } catch (\Exception $e) {
             throw new \Exception("Not found", 404);
         }

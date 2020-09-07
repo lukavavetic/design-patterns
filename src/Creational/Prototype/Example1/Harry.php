@@ -6,9 +6,9 @@ class Harry implements PersonInterface
 {
     const NAME = "Harry";
 
-    public function clone(): PersonInterface
+    public function __clone()
     {
-        return new Harry();
+        // TODO: Implement __clone() method.
     }
 
     public function __toString()

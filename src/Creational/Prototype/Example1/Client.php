@@ -6,11 +6,13 @@ class Client
 {
     public function run()
     {
-        $type = "tom";
-        Factory::__constructStatic();
+        $tom1 = new Tom();
 
-        $person = Factory::getPrototype($type);
+        Factory::addPrototypes("tom", $tom1);
 
-        print($person);
+        $tom2 = Factory::getPrototype("tom");
+
+        var_dump($tom1);
+        var_dump($tom2);
     }
 }

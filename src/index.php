@@ -14,8 +14,8 @@ require "../vendor/autoload.php";
 //use Src\Creational\FactoryMethod\Example2\Client;
 //use Src\Creational\FactoryMethod\Example3\Client;
 //use Src\Creational\ObjectPool\Example1\Client;
-//use Src\Creational\Prototype\Example1\Client;
-use Src\Creational\Prototype\Example2\Client;
+use Src\Creational\Prototype\Example1\Client;
+//use Src\Creational\Prototype\Example2\Client;
 
 //(new AbstractFactoryTest())->run();
 //(new HTMLPageBuilderTest())->run();

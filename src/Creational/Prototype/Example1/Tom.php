@@ -6,9 +6,9 @@ class Tom implements PersonInterface
 {
     const NAME = "Tom";
 
-    public function clone(): PersonInterface
+    public function __clone()
     {
-        return new Tom();
+
     }
 
     public function __toString()

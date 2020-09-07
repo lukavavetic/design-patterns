@@ -6,9 +6,9 @@ class Dick implements PersonInterface
 {
     const NAME = "Dick";
 
-    public function clone(): PersonInterface
+    public function __clone()
     {
-        return new Dick();
+        // TODO: Implement __clone() method.
     }
 
     public function __toString()
