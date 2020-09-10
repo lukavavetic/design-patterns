@@ -16,7 +16,8 @@ require "../vendor/autoload.php";
 //use Src\Creational\ObjectPool\Example1\Client;
 //use Src\Creational\Prototype\Example1\Client;
 //use Src\Creational\Prototype\Example2\Client;
-use Src\Creational\Singleton\Example1\Client;
+//use Src\Creational\Singleton\Example1\Client;
+use Src\Structural\Adapter\Example1\Client;
 
 //(new AbstractFactoryTest())->run();
 //(new HTMLPageBuilderTest())->run();
