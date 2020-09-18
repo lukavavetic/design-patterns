@@ -23,7 +23,11 @@ require "../vendor/autoload.php";
 //use Src\Structural\Bridge\Example2\Client;
 //use Src\Structural\Composite\Example1\Client;
 //use Src\Structural\Composite\Example2\Client;
-use Src\Structural\Composite\Example3\Client;
+//use Src\Structural\Composite\Example3\Client;
+//use Src\Structural\Decorator\Example1\Client;
+//use Src\Structural\Decorator\Example2\Client;
+//use Src\Structural\Decorator\Example3\Client;
+use Src\Structural\Decorator\Example4\Client;
 
 //(new AbstractFactoryTest())->run();
 //(new HTMLPageBuilderTest())->run();
