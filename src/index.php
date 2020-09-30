@@ -7,6 +7,7 @@ require "../vendor/autoload.php";
 //use Src\Creational\Builder\Example2\PizzaBuilderTest;
 //use Src\Creational\AbstractFactory\Example2\Client;
 //use Src\Creational\AbstractFactory\Example3\Client;
+use Src\Creational\AbstractFactory\Example4\Client;
 //use Src\Creational\Builder\Example3\Client;
 //use Src\Creational\Builder\Example4\Client;
 //use Src\Creational\Builder\Example5\Client;
@@ -27,7 +28,7 @@ require "../vendor/autoload.php";
 //use Src\Structural\Decorator\Example1\Client;
 //use Src\Structural\Decorator\Example2\Client;
 //use Src\Structural\Decorator\Example3\Client;
-use Src\Structural\Decorator\Example4\Client;
+//use Src\Structural\Decorator\Example4\Client;
 
 //(new AbstractFactoryTest())->run();
 //(new HTMLPageBuilderTest())->run();
