@@ -8,4 +8,9 @@ class RoomWithABomb extends Room
     {
         parent::__construct($roomNo);
     }
+
+    public function say() : void
+    {
+        print("I am RoomWithABomb");
+    }
 }

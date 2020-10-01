@@ -26,4 +26,9 @@ class Room extends AbstractMapSite
     {
         $this->sides[$direction] = $mapSite;
     }
+
+    public function say() : void
+    {
+        print("I am Room");
+    }
 }

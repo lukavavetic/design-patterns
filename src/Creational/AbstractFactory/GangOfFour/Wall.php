@@ -13,4 +13,9 @@ class Wall extends AbstractMapSite
     {
         // TODO: Implement enter() method.
     }
+
+    public function say() : void
+    {
+        print("I am Wall");
+    }
 }

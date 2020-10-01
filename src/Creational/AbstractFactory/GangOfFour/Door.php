@@ -23,4 +23,9 @@ class Door extends AbstractMapSite
     {
 
     }
+
+    public function say() : void
+    {
+        print("I am Door");
+    }
 }
